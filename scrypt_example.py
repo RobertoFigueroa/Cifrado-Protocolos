@@ -24,3 +24,8 @@ def decrypt(enc_dict, password): # decode the dictionary entries from base64
 	cipher = AES.new(private_key, AES.MODE_GCM, nonce=nonce) # decrypt the cipher text 
 	decrypted = cipher.decrypt_and_verify(cipher_text, tag) 
 	return decrypted 
+
+print("Alice sets a password: ")
+password = input("Password: ") # First let us encrypt secret message
+encrypted = encrypt(input("Message: "), password)
+print("Password encrypted is: ", encrypted) # Let us decrypt using our original password 
