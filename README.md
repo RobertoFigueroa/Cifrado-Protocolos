@@ -2,7 +2,7 @@
 Implementación básica de protocolos
 
 
-Librerias utilizadas:
+*Librerias utilizadas:*
 
 
 Pyotp 
@@ -11,7 +11,7 @@ Pyotp
 Time
 
 
-Metodo de instalación:
+*Metodo de instalación:*
 
 Pip install pyotp
 
