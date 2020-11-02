@@ -1,19 +1,27 @@
 # Cifrado-Protocolos
-Implementación básica de protocolos
+Implementación básica de protocolos implementado en python
+
+Requerimientos
+
+Librerias requeridas:
 
 
-*Librerias utilizadas:*
+    Pyotp 
+
+    Time
+    
+    pycryptodome
+    
+    pycryptodomex
 
 
-Pyotp 
+La libreria se instala corriendo el siguiente comando:
+
+    Pip install pyotp
 
 
-Time
+    Pip install time
 
-
-*Metodo de instalación:*
-
-Pip install pyotp
-
-
-Pip install time
+    pip install pycryptodome
+    
+    pip install pycryptodomex
