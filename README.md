@@ -5,7 +5,6 @@ Requerimientos
 
 Librerias requeridas:
 
-
     Pyotp 
 
     Time
@@ -18,7 +17,6 @@ Librerias requeridas:
 La libreria se instala corriendo el siguiente comando:
 
     Pip install pyotp
-
 
     Pip install time
 
