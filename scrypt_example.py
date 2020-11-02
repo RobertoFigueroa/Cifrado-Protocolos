@@ -29,3 +29,7 @@ print("Alice sets a password: ")
 password = input("Password: ") # First let us encrypt secret message
 encrypted = encrypt(input("Message: "), password)
 print("Password encrypted is: ", encrypted) # Let us decrypt using our original password 
+
+print("Bob gets the password and encrypted data")
+decrypted = decrypt(encrypted, password) 
+print("Bob reads the secret message: ", bytes.decode(decrypted))
